@@ -1,0 +1,33 @@
+
+
+* TODO Add feature
+
+- [ ] suppress HTML output for PANDAS for full plain text experience
+
+
+#+BEGIN_SRC ipython :session *iPython* :eval yes :results raw drawer :exports both :shebang "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\n" :var DIR_PROJ_MAIN=(file-name-directory buffer-file-name) :tangle yes
+import sensemaking as dsm
+
+
+help( dsm.testing.test )
+
+#+END_SRC
+
+#+RESULTS:
+:results:
+# Out[3]:
+# output
+: Help on module sensemaking.testing.test in sensemaking.testing:
+:
+: NAME
+:     sensemaking.testing.test - # -*- coding: utf-8 -*
+:
+: DATA
+:     dsm = 'sensemaking'
+:
+: FILE
+:     /home/jiko/anaconda3/lib/python3.7/site-packages/sensemaking/testing/test.py
+:
+:
+:
+:end:
