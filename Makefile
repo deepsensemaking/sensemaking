@@ -12,8 +12,11 @@ clean:
 	@rm -fvR src/${TARGET}.egg-info
 	@find . -type f -name "*.~undo-tree~" -exec rm -vf {} \;
 
-build: clean
+build:
 	@python3 setup.py bdist_wheel
 
 install:
 	@pip install .
+
+publish:
+	@python3 -m twine upload dist/*.whl
