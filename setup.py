@@ -9,7 +9,7 @@ setup(
     python_requires  = ">3.6",
     version          = "0.1.2020.05.16.1",
     url              = "https://github.com/deepsensemaking/sensemaking",
-    download_url     = 'https://github.com/deepsensemaking/sensemaking/archive/v0.1.2020.05.16.1.tar.gz',
+    download_url     = "https://github.com/deepsensemaking/sensemaking/releases/download/v0.1.2020.05.16.1/sensemaking-0.1.2020.5.16.1-py3-none-any.whl",
     description      = "DeepSenseMaking (dsm) Tools",
     keywords         = [
         "sensemaking",
